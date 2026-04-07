@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Lovart Unlocker",
+  "version": "1.0",
+  "description": "Unlock timezone-gated features on lovart.ai by spoofing UTC+8",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.lovart.ai/*"],
+      "js": ["inject.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
