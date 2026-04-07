@@ -18,11 +18,14 @@ The extension injects a script into the page context (`MAIN` world) before any p
 
 ## Install
 
-1. Download or clone this repo
-2. Open `chrome://extensions` in Chrome
-3. Enable **Developer mode** (top-right toggle)
-4. Click **Load unpacked** and select this folder
-5. Visit [lovart.ai](https://www.lovart.ai/) — done
+1. Go to the [Releases](https://github.com/sol1560/Lovart-Unlocker/releases/latest) page and download `lovart-unlocker-v1.0.zip`
+2. Unzip the file to a folder (keep this folder — Chrome needs it to stay)
+3. Open Chrome and navigate to `chrome://extensions`
+4. Enable **Developer mode** (toggle in the top-right corner)
+5. Click **Load unpacked** and select the unzipped folder
+6. Done! Visit [lovart.ai](https://www.lovart.ai/) and enjoy Seedance 2.0
+
+> **Note:** Do not delete the unzipped folder after loading — Chrome reads from it every time the extension runs.
 
 ## Verify
 
@@ -55,11 +58,14 @@ Lovart 根据浏览器时区来限制部分功能的访问（例如 Seedance 2.0
 
 ## 安装
 
-1. 下载或克隆本仓库
-2. 在 Chrome 中打开 `chrome://extensions`
-3. 开启右上角的 **开发者模式**
-4. 点击 **加载已解压的扩展程序**，选择本文件夹
-5. 访问 [lovart.ai](https://www.lovart.ai/) 即可
+1. 前往 [Releases](https://github.com/sol1560/Lovart-Unlocker/releases/latest) 页面，下载 `lovart-unlocker-v1.0.zip`
+2. 解压到一个文件夹（请保留这个文件夹，Chrome 需要持续读取它）
+3. 打开 Chrome，地址栏输入 `chrome://extensions`
+4. 开启右上角的 **开发者模式**
+5. 点击 **加载已解压的扩展程序**，选择刚才解压的文件夹
+6. 完成！访问 [lovart.ai](https://www.lovart.ai/) 即可使用 Seedance 2.0
+
+> **注意：** 加载后请勿删除解压的文件夹，Chrome 每次运行扩展时都会从该文件夹读取文件。
 
 ## 验证
 
